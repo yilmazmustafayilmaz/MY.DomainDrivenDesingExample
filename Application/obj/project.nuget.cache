@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "jedgXrVlWoaN/vs8b8WpxbaHMGhb34jOVXZzcmW3WvB/EX53Bjzn+GiaNEHLXwGDOnVr9fCtz7YufsKjWJuX+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\musta\\OneDrive\\Masaüstü\\DomainDrivenDesignExample\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\musta\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\musta\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\musta\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

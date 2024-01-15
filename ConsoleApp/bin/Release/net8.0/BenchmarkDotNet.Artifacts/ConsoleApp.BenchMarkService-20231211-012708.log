@@ -1,0 +1,32 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\musta\OneDrive\Masaüstü\DomainDrivenDesignExample\ConsoleApp\bin\Release\net8.0\a537b71e-1930-40c0-9351-cb77704544ae
+// command took 1.18 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\musta\OneDrive\Masaüstü\DomainDrivenDesignExample\ConsoleApp\bin\Release\net8.0\a537b71e-1930-40c0-9351-cb77704544ae
+// command took 13.96 sec and exited with 1
+// start dotnet  build -c Release --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in C:\Users\musta\OneDrive\Masaüstü\DomainDrivenDesignExample\ConsoleApp\bin\Release\net8.0\a537b71e-1930-40c0-9351-cb77704544ae
+// command took 2.47 sec and exited with 0
+// ***** Done, took 00:00:17 (17.71 sec)   *****
+// Found 2 benchmarks:
+//   BenchMarkService.Equals: DefaultJob
+//   BenchMarkService.IEquatable: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Yüksek performans)
+// **************************
+// Benchmark: BenchMarkService.Equals: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet a537b71e-1930-40c0-9351-cb77704544ae.dll --anonymousPipes 1340 1468 --benchmarkName ConsoleApp.BenchMarkService.Equals --job Default --benchmarkId 0 in C:\Users\musta\OneDrive\Masaüstü\DomainDrivenDesignExample\ConsoleApp\bin\Release\net8.0\a537b71e-1930-40c0-9351-cb77704544ae\bin\Release\net8.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// BenchmarkDotNet v0.13.11
+// Runtime=.NET 8.0.0 (8.0.23.41904), X64 RyuJIT AVX-512F+CD+BW+DQ+VL+VBMI
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX-512F+CD+BW+DQ+VL+VBMI,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 167500.00 ns, 167.5000 us/op
+True
